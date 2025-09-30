@@ -61,11 +61,12 @@ tareas_simuladas = [
 
 print("Lista de Tareas SIN Ordenar")
 for t in tareas_simuladas:
-    print(f"P: {t['prioridad']:<2} | T: {t['tiempo']:<2}h | Tarea: {t['nombre']}")
+    print(f"P: {t['prioridad']:<2} T: {t['tiempo']:<2}h Tarea: {t['nombre']}")
 
-#aplicar el Merge Sort
+#aplicar el merge sort
 tareas_ordenadas = merge_sort_tareas(tareas_simuladas)
 
 print("\nLista de Tareas ORDENADA")
 for t in tareas_ordenadas:
-    print(f"P: {t['prioridad']:<2} | T: {t['tiempo']:<2}h | Tarea: {t['nombre']}")
+
+    print(f"P: {t['prioridad']:<2} T: {t['tiempo']:<2}h Tarea: {t['nombre']}")
